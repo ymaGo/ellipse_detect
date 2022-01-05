@@ -2,7 +2,7 @@ import numpy as np
 import cv2 as cv
 import pandas as pd
 
-img=cv.imread('image/2.JPG')
+img=cv.imread('before tensile test')
 output=img.copy()
 
 gray=cv.cvtColor(img,cv.COLOR_BGR2GRAY)
